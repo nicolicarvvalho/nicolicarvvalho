@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: snk/action@v3
+      # Corrigido aqui: especificado o repositório completo 'Platane/snk'
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
