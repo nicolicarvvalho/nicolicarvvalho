@@ -13,4 +13,4 @@ jobs:
 
       - uses: JonathanSannier/github-readme-pacman@master
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: nicolicarvvalho
