@@ -1,9 +1,9 @@
 name: Generate Pacman Contribution Graph
 
 on:
-  schedule: # Executa a cada 12 horas
-    - cron: "0 */12 * * *"
-  workflow_dispatch: # Permite rodar manualmente
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -11,18 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Corrigido aqui: especificado o repositório completo 'Platane/snk'
-      - uses: Platane/snk@v3
+      - uses: lowlighter/metrics@latest
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            pacman-output/pacman-contribution-graph.svg?game=pacman
-            pacman-output/pacman-contribution-graph-dark.svg?game=pacman&palette=github-dark
-
-      - name: Push to pacman-output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: pacman-output
-          build_dir: pacman-output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
