@@ -1,5 +1,5 @@
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolicarvvalho/nicolicarvvalho/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolicarvvalho/nicolicarvvalho/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/nicolicarvvalho/nicolicarvvalho/pacman-output/pacman-contribution-graph.svg?game=pacman">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolicarvvalho/nicolicarvvalho/output/pacman-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolicarvvalho/nicolicarvvalho/output/pacman-contribution-grid-snake.svg">
+  <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/nicolicarvvalho/nicolicarvvalho/output/pacman-contribution-grid-snake.svg">
 </picture>
