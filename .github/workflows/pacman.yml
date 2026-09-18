@@ -11,8 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: lowlighter/metrics@latest
+      - uses: JonathanSannier/github-readme-pacman@master
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          github_user_name: ${{ github.repository_owner }}
