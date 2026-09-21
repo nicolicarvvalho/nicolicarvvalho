@@ -6,10 +6,8 @@
 
 <br>
 
-<!-- 2. Cards de Estatísticas e Linguagens Mais Usadas (Rosa) -->
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nicolicarvvalho&show_icons=true&theme=synthwave&title_color=ff69b4&icon_color=ff69b4&text_color=ffffff&bg_color=0d1117&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicolicarvvalho&layout=compact&theme=synthwave&title_color=ff69b4&text_color=ffffff&bg_color=0d1117&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicolicarvvalho&layout=compact&bg_color=0d1117&title_color=ff69b4&text_color=ffffff&icon_color=ff69b4&border_color=ff69b4&hide_border=false" />
 </div>
 
 <br>
