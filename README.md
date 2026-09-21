@@ -7,7 +7,11 @@
 <br>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicolicarvvalho&layout=compact&bg_color=0d1117&title_color=ff69b4&text_color=ffffff&icon_color=ff69b4&border_color=ff69b4&hide_border=false" />
+  <h3>🌸 Linguagens & Tecnologias</h3>
+  <img src="https://img.shields.io/badge/Python-FF69B4?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-FF1493?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-DB7093?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-C71585?style=for-the-badge&logo=postgresql&logoColor=white" />
 </div>
 
 <br>
