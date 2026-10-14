@@ -1,11 +1,4 @@
-<img width="1970" height="590" alt="welcome" src="https://github.com/user-attachments/assets/fd86edf6-f1ec-44aa-915a-32e362090593" />
 
-
-<div align="center">
-  <img src="./welcome.gif" width="50%" alt="Welcome Banner">
-</div>
-
-<br>
 
 <div align="center">
   <h3>🌸 Linguagens & Tecnologias</h3>
